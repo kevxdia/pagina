@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <!-- Required meta tags -->
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+      <meta name="author" content="Kevin Díaz">
+      <meta name="description" content="Smart Agency is a one page responsive Bootstrap 4 template. This is a free open source theme, you can use our theme for any purpose, even commercially. Create amazing websites with this easy to customize template.">
+  
+      <!-- Bootstrap CSS -->
+      <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  
+      <!-- Style -->
+      <link rel="stylesheet" href="assets/css/styles.css">
+  
+      <!-- Google fonts -->
+      <link href="https://fonts.googleapis.com/css?family=Titillium+Web:400,600" rel="stylesheet">
+  
+      <!-- Ionic icons-->
+      <link href="https://unpkg.com/ionicons@4.5.5/dist/css/ionicons.min.css" rel="stylesheet">
+  
+      <!-- Favicon -->
+      <link rel="shortcut icon" href="assets/images//favicon.png" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style type="text/css">
+    .navbar {
+      background-color: #406ade;
+    }
+    .navbar .navbar-brand {
+      color: #ecf0f1;
+    }
+    .navbar .navbar-brand:hover,
+    .navbar .navbar-brand:focus {
+      color: #ecdbff;
+    }
+    .navbar .navbar-text {
+      color: #ecf0f1;
+    }
+    .navbar .navbar-text a {
+      color: #ecdbff;
+    }
+    .navbar .navbar-text a:hover,
+    .navbar .navbar-text a:focus {
+      color: #ecdbff; 
+    }
+    .navbar .navbar-nav .nav-link {
+      color: #ecf0f1;
+      border-radius: .25rem;
+      margin: 0 0.25em;
+    }
+    .navbar .navbar-nav .nav-link:not(.disabled):hover,
+    .navbar .navbar-nav .nav-link:not(.disabled):focus {
+      color: #ecdbff;
+    }
+    .navbar .navbar-nav .nav-item.active .nav-link,
+    .navbar .navbar-nav .nav-item.active .nav-link:hover,
+    .navbar .navbar-nav .nav-item.active .nav-link:focus,
+    .navbar .navbar-nav .nav-item.show .nav-link,
+    .navbar .navbar-nav .nav-item.show .nav-link:hover,
+    .navbar .navbar-nav .nav-item.show .nav-link:focus {
+      color: #ecdbff;
+      background-color: #0e318e;
+    }
+    .navbar .navbar-toggler {
+      border-color: #0e318e;
+    }
+    .navbar .navbar-toggler:hover,
+    .navbar .navbar-toggler:focus {
+      background-color: #0e318e;
+    }
+    .navbar .navbar-toggler .navbar-toggler-icon {
+      color: #ecf0f1;
+    }
+    .navbar .navbar-collapse,
+    .navbar .navbar-form {
+      border-color: #ecf0f1;
+    }
+    .navbar .navbar-link {
+      color: #ecf0f1;
+    }
+    .navbar .navbar-link:hover {
+      color: #ecdbff;
+    }
+    
+    @media (max-width: 575px) {
+      .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+      }
+      .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+      .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ecdbff;
+      }
+      .navbar-expand-sm .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ecdbff;
+        background-color: #0e318e;
+      }
+    }
+    
+    @media (max-width: 767px) {
+      .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+      }
+      .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+      .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ecdbff;
+      }
+      .navbar-expand-md .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ecdbff;
+        background-color: #0e318e;
+      }
+    }
+    
+    @media (max-width: 991px) {
+      .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+      }
+      .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+      .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ecdbff;
+      }
+      .navbar-expand-lg .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ecdbff;
+        background-color: #0e318e;
+      }
+    }
+    
+    @media (max-width: 1199px) {
+      .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item {
+        color: #ecf0f1;
+      }
+      .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+      .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+        color: #ecdbff;
+      }
+      .navbar-expand-xl .navbar-nav .show .dropdown-menu .dropdown-item.active {
+        color: #ecdbff;
+        background-color: #0e318e;
+      }
+    }
+    
+    .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item {
+      color: #ecf0f1;
+    }
+    .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:hover,
+    .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item:focus {
+      color: #ecdbff;
+    }
+    .navbar-expand .navbar-nav .show .dropdown-menu .dropdown-item.active {
+      color: #ecdbff;
+      background-color: #0e318e;
+    }
+    
+    </style>
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <img src="assets/images//favicon.png" class="logo-brand" alt="logo">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <img src="assets/images/menu.svg">
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="C:/Users/kevin/Desktop/EloBost/Proyecto/Juegos.html">Juegos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#team">Sobre nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#pricing"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#testimonial"></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <section id="">
+    <duv class="container"></duv>
+    <div class="content-center">
+        
+      <main class="contenedor">
+        
+
+        
+        <section id="portfolio">
+          <div class="container-fluid">
+            <h1 class="nustros-productos">Nustros Productos</h1>
+              <div class="content-center">
+                  </div>
+                  
+              <div class="row">
+                  <div class="col-md-6">
+                      <div class="portfolio-container">
+                          <div class="portfolio-details">
+                            
+                              <a href="#">
+                                  <h2 class="text-dark"></h2>
+                                  
+                              </a>
+                              <a href="#">
+                                  <p class="text-dark"></p>
+                              </a>
+                          </div>
+                          <img src="assets/images/portfolio-01.jpg" class="img-fluid" alt="Portfolio 01">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="portfolio-container">
+                          <div class="portfolio-details">
+                              <a href="#">
+                                  <h2 class="text-dark"></h2>
+                              </a>
+                              <a href="#">
+                                  <p></p>
+                              </a>
+                          </div>
+                          <img src="assets/images/portfolio-02.jpg" class="img-fluid" alt="Portfolio 02">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="portfolio-container">
+                          <div class="portfolio-details">
+                              <a href="#">
+                                  <h2 class="text-dark"></h2>
+                              </a>
+                              <a href="#">
+                                  <p class="text-dark"></p>
+                              </a>
+                          </div>
+                          <img src="assets/images/portfolio-03.jpg" class="img-fluid" alt="Portfolio 03">
+                      </div>
+                  </div>
+                  <div class="col-md-6">
+                      <div class="portfolio-container">
+                          <div class="portfolio-details">
+                              <a href="#">
+                                  <h2 class="text-dark"></h2>
+                              </a>
+                              <a href="#">
+                                  <p class="text-dark"></p>
+                              </a>
+                          </div>
+                          <img src="assets/images/portfolio-04.jpg" class="img-fluid" alt="Portfolio 04">
+                      </div>
+                  </div>
+              </div>
+              <div class="text-center mt-4">
+                  <p class="">¿Listo para vivr una nueva experiencia en el mundo del gaming?</p>
+                  <a href="Juegos.html" class="text-dark"><b>¡Pide tus componentes ahora!</b></a>
+              </div>
+          </div>
+      </section>
+
+
+    </div>
+
+    <footer class="text-center text-white" style="background-color: #406ADE;">
+      <div class="container">
+          <img src="assets/images/favicon.png" class="logo-brand" alt="logo">
+          <ul class="list-inline">
+              <li class="list-inline-item footer-menu"><a href="C:/Users/kevin/Desktop/EloBost/Proyecto/index.html">inicio</a></li>
+              <li class="list-inline-item footer-menu"><a href="C:/Users/kevin/Desktop/EloBost/Proyecto/Juegos.html">Productos</a></li>
+              <li class="list-inline-item footer-menu"><a href="C:/Users/kevin/Desktop/EloBost/Proyecto/Juegos.html">acerca de nostros</a></li>
+              <li class="list-inline-item footer-menu"><a href="C:/Users/kevin/Desktop/EloBost/Proyecto/Juegos.html">contacto</a></li>
+          </ul>
+          <ul class="list-inline">
+              <li class="list-inline-item"><a href="#"><img src="assets/images/instagram.svg" class="img-fluid"></a></li>
+              <li class="list-inline-item"><a href="#"><img src="assets/images/twitter.svg" class="img-fluid"></a></li>
+              <li class="list-inline-item"><a href="#"><img src="assets/images/youtube.svg" class="img-fluid"></a></li>
+              <li class="list-inline-item"><a href="#"><img src="assets/images/dribbble.svg" class="img-fluid"></a></li>
+              <li class="list-inline-item"><a href="#"><img src="assets/images/facebook.svg" class="img-fluid"></a></li>
+          </ul>
+          <small>©2022 todos los derechos reservados. Creado por Marco Kevin Díaz Reyes <a href="" class="font-weight-bold" target="_blank"
+                  rel="noopener"></a></small>
+      </div>
+  </footer>
+  
+</body>
+</html>
